@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MineLuxMC | Minecraft Server</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+        <div class="logo">
+            <img src="images/logo.png" alt="MineLuxMC Logo">
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#vote">Vote</a></li>
+            <li><a href="#store">Store</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="server-ip" id="serverIP" onclick="copyIP()">
+            <span>play.mineluxmc.com</span>
+            <i class="fas fa-copy"></i>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Welcome to <span>MineLuxMC</span></h1>
+            <p>The best Minecraft survival & mini-games experience!</p>
+            <button class="join-btn" onclick="copyIP()">Join Now</button>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <h2>Server Features</h2>
+        <div class="feature-grid">
+            <div class="feature-card">
+                <i class="fas fa-shield-alt"></i>
+                <h3>Survival RPG</h3>
+                <p>Custom mobs, quests, and economy!</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-gamepad"></i>
+                <h3>Mini-Games</h3>
+                <p>BedWars, SkyWars, and more!</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-users"></i>
+                <h3>Friendly Community</h3>
+                <p>Active Discord & staff support.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Vote Section -->
+    <section class="vote" id="vote">
+        <h2>Vote for Rewards!</h2>
+        <p>Help us grow and get in-game perks.</p>
+        <div class="vote-buttons">
+            <a href="#" class="vote-btn">Vote on Minecraft-Servers</a>
+            <a href="#" class="vote-btn">Vote on PlanetMinecraft</a>
+        </div>
+    </section>
+
+    <!-- Store Section -->
+    <section class="store" id="store">
+        <h2>Server Store</h2>
+        <p>Upgrade your gameplay with ranks & cosmetics.</p>
+        <div class="store-items">
+            <div class="item">
+                <h3>VIP Rank</h3>
+                <p>$5.99</p>
+                <button>Buy Now</button>
+            </div>
+            <div class="item">
+                <h3>MVP Rank</h3>
+                <p>$10.99</p>
+                <button>Buy Now</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="social-links">
+            <a href="#"><i class="fab fa-discord"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+        <p>&copy; 2024 MineLuxMC. Not affiliated with Mojang.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
